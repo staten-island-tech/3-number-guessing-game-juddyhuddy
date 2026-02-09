@@ -15,6 +15,9 @@
 # history using a for loop
 
 import random
+number = int(input("what is the number"))
 
 random_integer = random.randint(1,10)
 guess_history = []
+if int == random:
+    print: correct 
