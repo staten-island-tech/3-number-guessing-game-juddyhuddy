@@ -20,4 +20,6 @@ number = int(input("what is the number"))
 random_integer = random.randint(1,10)
 guess_history = []
 if int == random:
-    print: correct 
+    print: ("correct")
+elif insert number into []
+    print: ("incorrect")
