@@ -23,6 +23,7 @@ guess_history = []
 while number == random_integer:
     if int == random:
         print("correct")
+        break
     else:
         guess_history.append(number)
         print("incorrect")
