@@ -24,6 +24,7 @@ while True:
     if number == random_integer:
         print("correct")
         break
+        print(guess_history)
     else:
         guess_history.append(number)
         print("incorrect")
@@ -31,3 +32,4 @@ while True:
             print("too low")
         if number > random_integer:
             print("too high")
+        break
