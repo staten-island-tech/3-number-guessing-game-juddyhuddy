@@ -21,8 +21,9 @@ random_integer = random.randint(1,10)
 guess_history = [] 
 while True:
     if number == random_integer:
-         print("correct")
-         print(guess_history)
+        print("correct")
+        print(guess_history)
+        break
 
     else:
         guess_history.append(number)
@@ -30,6 +31,8 @@ while True:
         print(guess_history)
         if number < random_integer:
             print("too low")
-        if number > random_integer:
+        elif number > random_integer:
             print("too high")
+        number = int(input("what is the number between 1 and 10"))
+        
         
